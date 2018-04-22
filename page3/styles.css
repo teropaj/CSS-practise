@@ -1,15 +1,25 @@
+body {background-color: #D0F7EB;}
+
 .bord {border: 1px solid blue;}
 
 #box {position: relative;
-      width: 48%;
+      width: 30%;
       height: 50%;}
 
 #box input{
   text-align: center;
 }
 
+
 #box {float: left;}
 #box2 {position: relative;
       background-color: purple;
-      width: 50%;float:right;
-      top: 0px;}
+      width: 50%;float:left;
+      top: 2rem;}
+tbody tr:nth-child(odd) {
+        background-color: #ff33cc;
+      }
+
+tbody tr:nth-child(even) {
+        background-color: #e495e4;
+      }
