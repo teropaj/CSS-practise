@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+    <meta name="author" content="Your Name">
+	<meta name="description" content="Description of the page: e.g. My first HTML excercice.">
+	<style>
+	</style>
+</head>
+
+<body>
+	<script src = "objects.js"></script>
+	<label for ="license-plate">License Plate</label>
+  <input type="text" id="license-plate"></input><br>
+  <label for = "manufacturer">Car Maker</label>
+  <input type="text" id="manufacturer"></input><br>
+  <label for = "model">Car Model</label>
+  <input type="text" id="model"></input><br>
+  <label for ="price">Price</label>
+  <input type="text" id="price"></input><br>
+  <label for ="paint">Color</label>
+  <input type ="color" id="paint" value ="#ff2800"><br>
+
+	<button type = "button" onclick="createNewCar()">Add a new car</button>
+
+  <button type = "button" onclick="findLargistPrice()">Order by price</button>
+	<button type = "button" onclick="printCars()">Print cars</button><br>
+
+
+	<label for = "licenseplate">Licence Plate</label>
+	<input type="text" id="search"></input>
+  <button type="button" onclick="searchFromArray('search')">Search</button>
+	<br>
+
+	<label >Licence Plate</label>
+	<input type="text" id="discount"></input>
+	<button type = "button" onclick="discount()">Discount</button><br>
+	<button type = "button" onclick="sortArray()">SortArray</button>
+</body>
+</html>

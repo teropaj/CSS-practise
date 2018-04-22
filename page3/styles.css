@@ -1,0 +1,11 @@
+.bord {border: 1px solid blue;}
+
+#box {position: relative;
+      width: 50%;
+      height: 50%;}
+
+#box input{
+  text-align: center;
+}
+
+#box {float: left;}
