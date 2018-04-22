@@ -1,7 +1,7 @@
 .bord {border: 1px solid blue;}
 
 #box {position: relative;
-      width: 50%;
+      width: 48%;
       height: 50%;}
 
 #box input{
@@ -9,3 +9,7 @@
 }
 
 #box {float: left;}
+#box2 {position: relative;
+      background-color: purple;
+      width: 50%;float:right;
+      top: 0px;}
