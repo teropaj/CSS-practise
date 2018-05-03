@@ -1,6 +1,12 @@
-body {background-color: #D0F7EB;}
 
 .bord {border: 1px solid blue;}
+* {
+    box-sizing: border-box;
+}
+
+#header{width:100%;}
+#cars { width:50%;height: 30vh;float:left;}
+#list { width: 50%;height: 20em;float:right;}
 
 #box {position: relative;
       width: 30%;
@@ -9,7 +15,10 @@ body {background-color: #D0F7EB;}
 #box input{
   text-align: center;
 }
-
+span {text-align: center;}
+.row{display: table;}
+#table1 {margin: auto;background-color: green;width: 40%;
+height: 30vh;}
 
 #box {float: left;}
 #box2 {position: relative;
@@ -22,4 +31,11 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
         background-color: #e495e4;
+      }
+.grid-container {border: 1px solid rgba(0, 0, 0, 0.8);
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: 50%;
+        margin: auto;
+
       }

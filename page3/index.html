@@ -2,40 +2,58 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title></title>
 
   </head>
   <body>
-    <div id="box" class="bord">
-      <label for ="license-plate">License Plate</label><br>
-      <input type="text" id="license-plate" align="right"></input><br>
-      <label for = "manufacturer">Car Maker</label><br>
-      <input type="text" id="manufacturer" align="right"></input><br>
-      <label for = "model" align="right">Car Model</label><br>
-      <input type="text" id="model" align="right"></input><br>
-      <label for ="price">Price</label><br>
-      <input type="text" id="price" align="right"></input><br>
-      <label for ="paint">Color</label><br>
-      <input type ="color" id="paint" value ="#ff2800" align="right"><br>
 
-	     <button type = "button" onclick="createNewCar()">Add a new car</button>
+        <div id="header" class="grid-container">
+            <span>1</span>
+            <span>1</span>
+            <span>1</span>
+            <span>1</span>
 
-    </div>
+        </div>
 
-    <div id="box2" class="bord">
-      <table id="myTable">
-        <tr>
-          <td>License</td>
-          <td>Maker</td>
-          <td>Model</td>
-          <td>Color</td>
-          <td>Price</td>
-        </tr>
 
-      </table>
-    </div>
 
+            <div class="grid-container" style="margin-top:5%">
+              <div></div>
+              <div  id="cars">
+                <label for ="license-plate">License Plate</label><br>
+                <input type="text" id="license-plate" align="right"></input><br>
+                <label for = "manufacturer">Car Maker</label><br>
+                <input type="text" id="manufacturer" align="right"></input><br>
+                <label for = "model" align="right">Car Model</label><br>
+                <input type="text" id="model" align="right"></input><br>
+                <label for ="price">Price</label><br>
+                <input type="text" id="price" align="right"></input><br>
+                <label for ="paint">Color</label><br>
+                <input type ="color" id="paint" value ="#ff2800" align="right"><br>
+
+          	     <button type = "button" onclick="createNewCar()">Add a new car</button>
+
+              </div>
+
+              <div   id="list">
+                <table id="myTable">
+                  <tr>
+                    <td>License</td>
+                    <td>Maker</td>
+                    <td>Model</td>
+                    <td>Color</td>
+                    <td>Price</td>
+                  </tr>
+
+                </table>
+              </div>
+              <div></div>
+          </div>
+
+
+  </div>
 <script src="tableDiv.js"></script>
   </body>
 </html>
